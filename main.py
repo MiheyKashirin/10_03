@@ -1,5 +1,2 @@
-print('Ok')
-print('Ok')
-print('Ok')
-print('Ok')
+input('type x: ')
 
