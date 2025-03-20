@@ -2,7 +2,7 @@ import math
 def calculator():
     number1=float(input("Type number1:"))
     operation=input("Type + - * /:")
-    number2=float(input("Type + - * /:"))
+    number2=float(input("Type number2:"))
     if operation == "/":
         if number2 == 0:
             print("Error")
