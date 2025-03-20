@@ -6,7 +6,7 @@ for _ in range(5):
     reserved_number = reserved_number * 10 + digit
     number = number // 10
 
-print(reserved_number
+print(reserved_number)
 
 
 
