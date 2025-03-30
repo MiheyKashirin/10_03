@@ -1,12 +1,11 @@
-my_list = [9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
-def move_zeros_to_end(lst):
-    count = 0
-    for i in range(len(lst)):
-        if lst[i] != 0:
-            lst[count] = lst[i]
-            count += 1
-    while count < len(lst):
-        lst[count] = 0
-        count += 1
-    print(lst)
-move_zeros_to_end(my_list)
+lst=[3,5,6,0,7,9,0,3,12,0,5]
+lst0=[]
+lst1=[]
+for num in lst:
+    if num==0:
+        lst0.append(num)
+    else:
+        lst1.append(num)
+result=lst1+lst0
+print(result)
+
