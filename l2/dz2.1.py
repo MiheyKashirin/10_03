@@ -1,5 +1,5 @@
 number = int(input('Введите число:'))
-print('1234',number)
+print(number)
 print(number//1000)
 print((number//100)%10)
 print((number//10)%10)
